@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("imgs/background.jpg");
+	background-size: cover;	
+    background-repeat: no-repeat;
+	font-family: Lucida Console;
+	font-size: 20px;
+}
+
+
+#vsebina {	
+	position: absolute;
+	left: 55%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#myCanvas {
+	padding: 10px;
+	background: rgba(250, 250, 250, 0.7);	
+	border: black 3px solid;
+}
+
+#menu {	
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 630px;
+	margin-top: -666px;
+	margin-left: -250px;
+	padding: 15px;
+	border: black solid 3px;
+	background: rgba(253, 240, 221, 0.7);
+}
+
+#p1 {
+	top: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+#p2 {
+	position: absolute;
+	bottom: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
